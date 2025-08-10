@@ -23,7 +23,7 @@ description: Today is Always the Most Enjoyable Day!
 
 navbar-links:
   About Me: "aboutme"
-  CV: #"cv"
+  CV: "resume"
   Projects: #"projects"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
