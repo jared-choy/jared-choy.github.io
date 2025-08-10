@@ -5,9 +5,17 @@ subtitle: "Today is Always the Most Enjoyable Day!"
 <!-- show-avatar: false -->
 <!-- avatar: "https://jared-choy.github.io/assets/img/yobber_cam.png" -->
 ---
+
 <style>
-img.avatar-img[src*="IMG_4484.png"] {
+.avatar-img {
   content: url('/assets/img/yobber_cam.jpg') !important;
+}
+
+/* Ensure title and subtitle remain visible */
+.intro-header .page-heading h1,
+.intro-header .page-heading .page-subheading {
+  display: block !important;
+  visibility: visible !important;
 }
 </style>
 
