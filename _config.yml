@@ -22,14 +22,14 @@ description: Today is Always the Most Enjoyable Day!
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  #About Me: "aboutme"
   Resume: "resume"
-  Projects: #"projects"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-
-
+  Projects:
+    - Correlation Between NBA Draft Pick and Overall Career: "nba-proj"
+    - Restaurant Recommendation System: "rest-proj"
+    - Computer Vision Art Analysis: "marilyn-proj"
+    - Sentiment Analysis: "sent-proj"
+    - Optimal Bounds for Eigenvalue Estimation: "eig-proj"
 ################
 # --- Logo --- #
 ################
