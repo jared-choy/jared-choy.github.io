@@ -23,12 +23,12 @@ description: Today is Always the Most Enjoyable Day!
 
 navbar-links:
   About Me: "aboutme"
-  CV: "resume"
+  Resume: "resume"
   Projects: #"projects"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+
 
 ################
 # --- Logo --- #
