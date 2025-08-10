@@ -87,27 +87,41 @@ subtitle: "Today is Always the Most Enjoyable Day"
 
 <hr class="section-divider">
 
-<h2>Recent Work</h2>
+<h2>Featured</h2>
 <div class="flickr-widget">
-  <h3>Latest from my camera</h3>
+  <h3>Some of my favorites from my travels.</h3>
   
-  <!-- Your Flickr embed code -->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/203322175@N04" title="">
-    <img src="https://live.staticflickr.com/65535/54711148613_8a1e290e33_h.jpg" 
-         width="100%" 
-         height="auto" 
-         alt="Latest Photography Work"
-         style="max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/>
-  </a>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px; margin: 20px 0;">
+    
+   <div style="text-align: center;">
+      <h4 style="color: #B00B69; margin-bottom: 15px;">Featured</h4>
+      <a data-flickr-embed="true" href="https://www.flickr.com/photos/203322175@N04/albums/72177720328283732" title="Faves">
+        <img src="https://live.staticflickr.com/65535/54710007202_ec3e8a4a3d_h.jpg" 
+             width="100%" 
+             alt="Favorites Album"
+             style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s ease;"
+             onmouseover="this.style.transform='scale(1.05)'"
+             onmouseout="this.style.transform='scale(1)'"/>
+      </a>
+      <p style="margin-top: 10px; font-size: 0.9em; color: #666;">All on Sony Cybershot DSC V3</p>
+    </div>
+    
+  </div>
+  
   <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   
-  <p style="margin-top: 15px;">
+  <div style="text-align: center; margin-top: 25px;">
     <a href="https://www.flickr.com/photos/203322175@N04/" 
-       style="background: #B00B69; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;"
+       style="background: #B00B69; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; margin: 0 10px; display: inline-block;"
        target="_blank">
-      View All Photos on Flickr
+      📸 Full Gallery
     </a>
-  </p>
+    <a href="https://www.flickr.com/photos/203322175@N04/albums" 
+       style="background: #FF69B4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; margin: 0 10px; display: inline-block;"
+       target="_blank">
+      📁 All Albums
+    </a>
+  </div>
 </div>
 
 <hr class="section-divider">
