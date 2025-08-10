@@ -1,17 +1,180 @@
 ---
 layout: page
 title: "Photography"
+subtitle: "Today is Always the Most Enjoyable Day"
 ---
 
-## My Latest Work
+<style>
+.photo-header {
+  text-align: center;
+  margin: 30px 0;
+}
 
-<!-- Flickr Photo Stream Widget -->
-<script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=12&display=latest&size=m&layout=x&source=user&user=203322175@N04"></script>
+.flickr-gallery {
+  margin: 30px 0;
+}
 
-<div style="text-align: center; margin: 20px 0;">
-  <a href="https://www.flickr.com/photos/203322175@N04/" 
-     style="background: #0063dc; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;"
-     target="_blank">
-    View Full Gallery on Flickr
+.flickr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.photo-item {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.photo-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.photo-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.flickr-widget {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.flickr-link {
+  display: inline-block;
+  background: #B00B69;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 10px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.flickr-link:hover {
+  background: #8a0847;
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.section-divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #B00B69, transparent);
+  margin: 40px 0;
+  border: none;
+}
+</style>
+
+<div class="photo-header">
+  <h2>Welcome to my visual journey</h2>
+  <p>Photography has always been my way of capturing the beauty in everyday moments and extraordinary adventures.</p>
+</div>
+
+<hr class="section-divider">
+
+<h2>Recent Work</h2>
+
+<div class="flickr-widget">
+  <h3>Latest from my camera</h3>
+  <!-- Flickr Recent Photos Widget -->
+  <script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=m&layout=x&source=user&user=203322175@N04"></script>
+</div>
+
+<hr class="section-divider">
+
+<h2>Featured Collections</h2>
+
+<div class="flickr-grid">
+  <div class="photo-item">
+    <a href="https://www.flickr.com/photos/203322175@N04/albums/travel" target="_blank">
+      <img src="https://live.staticflickr.com/65535/your-travel-album-cover.jpg" alt="Travel Photography">
+      <div class="photo-info">
+        <h4>Travel Adventures</h4>
+        <p>Exploring the world one photo at a time</p>
+      </div>
+    </a>
+  </div>
+  
+  <div class="photo-item">
+    <a href="https://www.flickr.com/photos/203322175@N04/albums/portraits" target="_blank">
+      <img src="https://live.staticflickr.com/65535/your-portrait-album-cover.jpg" alt="Portrait Photography">
+      <div class="photo-info">
+        <h4>Portraits</h4>
+        <p>Capturing personality and emotion</p>
+      </div>
+    </a>
+  </div>
+  
+  <div class="photo-item">
+    <a href="https://www.flickr.com/photos/203322175@N04/albums/nature" target="_blank">
+      <img src="https://live.staticflickr.com/65535/your-nature-album-cover.jpg" alt="Nature Photography">
+      <div class="photo-info">
+        <h4>Nature & Landscapes</h4>
+        <p>The beauty of the natural world</p>
+      </div>
+    </a>
+  </div>
+  
+  <div class="photo-item">
+    <a href="https://www.flickr.com/photos/203322175@N04/albums/street" target="_blank">
+      <img src="https://live.staticflickr.com/65535/your-street-album-cover.jpg" alt="Street Photography">
+      <div class="photo-info">
+        <h4>Street Photography</h4>
+        <p>Life in motion around the city</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<h2>Photography Journey</h2>
+
+<h3>My Equipment</h3>
+<ul>
+  <li><strong>Camera:</strong> [Your camera model]</li>
+  <li><strong>Favorite Lenses:</strong> [Your lens preferences]</li>
+  <li><strong>Editing:</strong> [Your editing software]</li>
+</ul>
+
+<h3>Inspiration</h3>
+<p>My photography is inspired by travel, human connection, and finding beauty in unexpected places. From the bustling streets of cities to quiet moments in nature, I try to capture stories that resonate with viewers.</p>
+
+<hr class="section-divider">
+
+<h2>Connect & Explore</h2>
+
+<div style="text-align: center; margin: 40px 0;">
+  <p>Want to see more of my work or discuss photography?</p>
+  
+  <a href="https://www.flickr.com/photos/203322175@N04/" class="flickr-link" target="_blank">
+    📸 Full Flickr Gallery
   </a>
+  
+  <a href="https://www.flickr.com/photos/203322175@N04/albums" class="flickr-link" target="_blank">
+    📁 Photo Albums
+  </a>
+  
+  <a href="mailto:your-email@example.com" class="flickr-link">
+    ✉️ Commission Work
+  </a>
+</div>
+
+<div style="text-align: center; margin-top: 30px; color: #666;">
+  <small>All photographs © Jared Choy. Please do not use without permission.</small>
 </div>
