@@ -30,6 +30,7 @@ navbar-links:
     - Computer Vision Art: "marilyn-proj"
     - Sentiment Analysis: "sent-proj"
     - Eigenvalue Estimation: "eig-proj"
+  Photography: "photography"
 ################
 # --- Logo --- #
 ################
