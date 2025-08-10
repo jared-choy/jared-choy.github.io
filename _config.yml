@@ -156,18 +156,18 @@ navbar-var-length: false
 # footer-hover-col: "#0085A1"
 
 # My New Colors
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-page-col: "#1a1a1a"              # Dark background
-text-col: "#e0e0e0"              # Light gray text for readability
-link-col: "#ff69b4"              # Bright pink links to match theme
-hover-col: "#B00B69"             # Your header color for hover states
-navbar-col: "#B00B69"            # Your requested header color
-navbar-text-col: "#ffffff"       # White text on pink navbar
+# Softer dark theme variant
+page-col: "#2c2c2c"              # Softer dark gray
+text-col: "#f5f5f5"              # Off-white text
+link-col: "#ff8cc8"              # Lighter pink links
+hover-col: "#B00B69"             # Your header color
+navbar-col: "#B00B69"            # Your header color
+navbar-text-col: "#ffffff"       # White navbar text
 navbar-border-col: "#8a0847"     # Darker pink border
-footer-col: "#2d2d2d"            # Slightly lighter than page background
-footer-text-col: "#b0b0b0"       # Medium gray footer text
-footer-link-col: "#ff69b4"       # Pink footer links
-footer-hover-col: "#B00B69"      # Your header color for footer hover
+footer-col: "#404040"            # Medium gray footer
+footer-text-col: "#cccccc"       # Light gray footer text
+footer-link-col: "#ff8cc8"       # Light pink footer links
+footer-hover-col: "#B00B69"      # Your header color
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
