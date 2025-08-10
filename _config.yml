@@ -25,11 +25,11 @@ navbar-links:
   #About Me: "aboutme"
   Resume: "resume"
   Projects:
-    - Correlation Between NBA Draft Pick and Overall Career: "nba-proj"
-    - Restaurant Recommendation System: "rest-proj"
-    - Computer Vision Art Analysis: "marilyn-proj"
+    - NBA Draft Analysis: "nba-proj"
+    - Restaurant Recommender: "rest-proj"
+    - Computer Vision Art: "marilyn-proj"
     - Sentiment Analysis: "sent-proj"
-    - Optimal Bounds for Eigenvalue Estimation: "eig-proj"
+    - Eigenvalue Estimation: "eig-proj"
 ################
 # --- Logo --- #
 ################
