@@ -26,7 +26,7 @@ navbar-links:
   Resume: "resume"
   Projects:
     - NBA Draft Analysis: "nba-proj"
-    - Restaurant Recommender System: "rest-proj"
+    - Restaurant Rec System: "rest-proj"
     - Computer Vision Art: "marilyn-proj"
     - Sentiment Analysis: "sent-proj"
     - Eigenvalue Estimation: "eig-proj"
