@@ -144,16 +144,16 @@ navbar-var-length: false
 
 # Original Colors
 page-col: "#2C2C2C" #FFFFFF
-text-col: "#404040"
-link-col: "#008AFF"
+text-col: "#F5F5F5" #404040
+link-col: "#FF8CC8" #008AFF
 hover-col: "#B00B69" #0085A1
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+navbar-col: "#B00B69" #EAEAEA
+navbar-text-col: "#FFFFFF" #404040
+navbar-border-col: "#8A0847" #DDDDDD
+footer-col: "#404040" #EAEAEA
+footer-text-col: "#CCCCCC" #777777
+footer-link-col: "#FF8CC8" #404040
+footer-hover-col: "#B00B69" #0085A1
 
 # My New Colors
 # Softer dark theme variant
