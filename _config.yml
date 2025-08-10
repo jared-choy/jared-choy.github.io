@@ -28,6 +28,7 @@ navbar-links:
     - NBA Draft Analysis: "nba-proj"
     - Restaurant Rec System: "rest-proj"
     - Computer Vision Art: "marilyn-proj"
+    - Project STAR: "star-proj"
     - Sentiment Analysis: "sent-proj"
     - Eigenvalue Estimation: "eig-proj"
   Photography: "photography"
