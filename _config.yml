@@ -23,7 +23,7 @@ description: Today is Always the Most Enjoyable Day!
 
 navbar-links:
   #About Me: "aboutme"
-  Resume: "resume"
+  Resumé: "resume"
   Projects:
     - NBA Draft Analysis: "nba-proj"
     - Restaurant Rec System: "rest-proj"
