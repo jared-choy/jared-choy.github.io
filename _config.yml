@@ -15,6 +15,9 @@ title: Data Scientist
 # Your name to show in the footer
 author: Jared Choy
 
+# Website URL Bot
+use-site-title: true
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
